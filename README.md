@@ -1,6 +1,55 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Next.js Project Version
+
+## Project Overview
+This project is a web application built using **Next.js** and **Tailwind CSS**.
+
+### Version Information
+
+- **Next.js**: 15.3.0
+- **React**: 19.1.0
+- **React-DOM**: 19.1.0
+- **TypeScript**: 5.8.3
+- **Tailwind CSS**: 3.3.5
+
+### Dependencies
+The project depends on the following packages:
+
+- **@types/node**: 22.14.0
+- **@types/react**: 19.1.0
+- **@types/react-dom**: 19.1.2
+- **eslint**: 9.24.0
+- **eslint-config-next**: 15.3.0
+- **next**: 15.3.0
+- **react**: 19.1.0
+- **react-dom**: 19.1.0
+- **typescript**: 5.8.3
+
+### Development Dependencies
+- **autoprefixer**: ^10.4.21
+- **postcss**: ^8.5.3
+- **tailwindcss**: ^3.3.5
+
+## Tailwind CSS Version Change Explanation
+
+Initially, the project used **Tailwind CSS v4**. However, due to some bugs and compatibility issues, the team decided to downgrade to **v3.3.5**. The version 3.x series is more stable in the context of this project and has resolved several compatibility issues with other dependencies.
+
+Downgrading to v3 ensures better stability and smoother integration with the existing packages, leading to a more reliable development experience.
+
+
+## Get Started
+
+### Install Dependencies
+
+```bash
+npm install
+
+
+### Create Project
+```bash
+npm create-next-app@13.4
+```
 
 First, run the development server:
 
@@ -27,8 +76,3 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
