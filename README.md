@@ -74,7 +74,7 @@ rafce -> arrow function component
 
 ## Notes
 ### CSR VS SSR
-![alt text](notes\CSR_VS_SSR.png)
+![alt text](public\notes\CSR_VS_SSR.png)
 
 btw, SSR will lose the power of interactivity with clients.
 
