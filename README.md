@@ -76,5 +76,6 @@ rafce -> arrow function component
 ### CSR VS SSR
 ![CSR_VS_SSR](notes/CSR_VS_SSR.png)
 
-btw, SSR will lose the power of interactivity with clients.
+Otherwise, SSR will lose the power of interactivity with clients
+That's why we use mixture of them.
 
